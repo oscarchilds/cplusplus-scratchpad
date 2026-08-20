@@ -1,3 +1,4 @@
+#include "double-and-triple-number.h"
 #include <iostream>
 
 using namespace std;
@@ -12,7 +13,7 @@ int tripleNumber(int input)
     return input * 3;
 }
 
-int main()
+void doubeAndTripleNumber()
 {
     cout << "Enter an integer: ";
 
@@ -21,6 +22,4 @@ int main()
 
     cout << "Double that number is: " << doubleNumber(num) << '\n';
     cout << "Triple that number is: " << tripleNumber(num) << '\n';
-
-    return 0;
 }

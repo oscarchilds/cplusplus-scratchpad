@@ -1,3 +1,4 @@
+#include "add-and-subtract.h"
 #include <iostream>
 
 using namespace std;
@@ -17,7 +18,7 @@ void printOutput(int x, int y, int result, char operand)
     cout << x << ' ' << operand << ' ' << y << " is " << result << "\n";
 }
 
-int main()
+void runAddAndSubtract()
 {
     int firstInput{getInput("Enter an integer: ")};
     int secondInput{getInput("Enter another integer: ")};

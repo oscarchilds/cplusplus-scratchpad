@@ -4,11 +4,11 @@
 
 using namespace std;
 
-int main()
-{
-    cout << sizeof(int) << '\n';
-    return 0;
-}
+// int main()
+// {
+//     cout << sizeof(int) << '\n';
+//     return 0;
+// }
 
 // int main()
 // {
