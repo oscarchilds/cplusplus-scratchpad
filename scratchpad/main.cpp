@@ -1,10 +1,50 @@
 // #include "add-and-subtract.h"
 // #include "double-and-triple-number.h"
 // #include "what-compiler.h"
+#include "int-to-ascii-code.h"
+
+int main()
+{
+    run();
+}
+
+// #include <iostream>
+
+// void print(int x)
+// {
+//     std::cout << x << '\n';
+// }
 
 // int main()
 // {
-//     runAddAndSubtract();
+//     print(static_cast<int>(5.5));
+
+//     return 0;
+// }
+
+// #include <iostream>
+
+// int main()
+// {
+//     std::cout << true << '\n';
+//     std::cout << false << '\n';
+
+//     std::cout << std::boolalpha; // print bools as true or false
+
+//     std::cout << true << '\n';
+//     std::cout << false << '\n';
+//     return 0;
+// }
+
+// #include <iostream>
+// #include <limits>
+
+// int main()
+// {
+//     std::cout << std::boolalpha; // print bool as true or false rather than 1 or 0
+//     std::cout << "float: " << std::numeric_limits<float>::is_iec559 << '\n';
+//     std::cout << "double: " << std::numeric_limits<double>::is_iec559 << '\n';
+//     std::cout << "long double: " << std::numeric_limits<long double>::is_iec559 << '\n';
 // }
 
 // #include <iomanip> // for std::setw (which sets the width of the subsequent output)
@@ -60,13 +100,13 @@
 //     return 0;
 // }
 
-#include <cstdint> // for fixed-width integers
-#include <iostream>
+// #include <cstdint> // for fixed-width integers
+// #include <iostream>
 
-int main()
-{
-    std::int8_t x { 65 };   // initialize 8-bit integral type with value 65
-    std::cout << x << '\n'; // You're probably expecting this to print 65
+// int main()
+// {
+//     std::int8_t x { 65 };   // initialize 8-bit integral type with value 65
+//     std::cout << x << '\n'; // You're probably expecting this to print 65
 
-    return 0;
-}
+//     return 0;
+// }
